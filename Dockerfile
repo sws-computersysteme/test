@@ -12,6 +12,6 @@ LABEL traefik.frontend.entryPoints "https"
 LABEL traefik.protocol "http"
 LABEL traefik.port "$HTTP_PORT"
 
-RUN npm install --production --silent
+RUN npm install --production
 
 CMD [ "pm2-runtime" , "start" , "docker.config.js" ]

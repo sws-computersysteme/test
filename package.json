@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Stefan Dornheim <stefan.dornheim@sws.de> (http://www.sws.de)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@sws-computersysteme/swserrreport": "0.0.7"
+  }
+}
